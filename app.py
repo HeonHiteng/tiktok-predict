@@ -4,8 +4,8 @@ import os
 import pickle
 
 headers = {
-	"X-RapidAPI-Key": os.getenv('TIKTOK_API'),
-	"X-RapidAPI-Host": "tiktok-scraper7.p.rapidapi.com"
+    "X-RapidAPI-Key": "22dd2145c2msh43afffda3568c23p1147f4jsn36920291adb5",
+    "X-RapidAPI-Host": "tiktok-scraper7.p.rapidapi.com"
 }
 
 with open('model_scaler.pkl', 'rb') as f:
